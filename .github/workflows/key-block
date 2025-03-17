@@ -1,0 +1,17 @@
+name: name of the workflow
+on: 
+  push:
+    branches: main
+jobs:
+  name-of-the-job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: name of the action
+        run: echo "Welcome to the GitHub Actions Sessions! Happy Learning!"
+      - name: second action
+        run: echo "to show the yaml syntax list - created"
+  name-of-the-job2:
+    runs-on: windows-latest
+    steps: 
+      - name: WIndows Image
+        run: echo "Running on the windows image"
